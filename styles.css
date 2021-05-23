@@ -1,29 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 
 :root {
-  --primary-color: #fcd34d;
+  --primary-color: yellow;
   --off-white: white;
 }
 
 body {
-  font-family: "Dancing Script", cursive;
-  background-color: var(--off-white);
+  font-family: "Dancing Script";
+  background-color: var(--primary-color);
   margin: 0%;
 }
+
+
 .navigation {
   text-align: center;
   padding-top: 0.2rem;
   padding-bottom: 0.1rem;
   background-color: var(--primary-color);
 }
+
+
 .navigation h1 {
   font-weight: 800;
   font-size: 2rem;
 }
+
+
 .content {
   text-align: center;
   margin: auto;
 }
+
 
 .textarea {
   border: 1px solid black;
@@ -38,6 +45,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
+
 .content button {
   cursor: pointer;
   color: black;
@@ -51,10 +59,14 @@ body {
   padding-bottom: 0.5rem;
   background-color: var(--primary-color);
 }
+
+
 .content button:hover {
   background-color: whitesmoke;
   transition: all 0.2s;
 }
+
+
 .output {
   border: 1px solid black;
   height: 10vh;
@@ -63,6 +75,8 @@ body {
   padding: 1rem;
   font-size: 1.5rem;
 }
+
+
 .footer {
   background-color: var(--primary-color);
   text-align: center;
